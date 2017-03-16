@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Crystal Counters</title>
+
+	<style type="text/css" >
+
+    	.crystal-image {
+      		width: 300px;
+      		height: 300px;
+    	}
+  	</style>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+
+</head>
+<body>
+	<div id="header-text">
+		<h1>Crystal Counter</h1>
+	</div>
+
+	<div id="ptext"> 
+		<p>
+			Welcome to world's most difficult game - Crytsal Counter!
+			<br>
+
+			The obejctive of the game is to match the your guesses to the score shown at the top of the page. Guesses can be placed by selecting the different crystal images. The images will generate an increment your score - shown below the crystals. 
+			<br>
+
+			Your wins and losses will be tracked, in addition to alerts letting you know when you won or loss. 
+			<br>
+
+			Enjoy. 
+		</p>
+
+	</div>
+
+	<h2 class="gamescore">Score To Match : <span id="comp-score"></span></h2>
+
+	<div id="scoreboard">
+		<div id="gameAlert"></div>
+			<div class="wins">Wins: </div>
+			<div class="losss">Losses: </div>
+	</div>
+	
+
+	<div id="crystals">Select the crystals to increase your score</div>
+
+<!--
+		<div id="images">
+			<img id="img1" src="assets/images/img1.jpg">
+			<img id="img2" src="assets/images/img2.jpg">
+			<img id="img3" src="assets/images/img3.jpg">
+			<img id="img4" src="assets/images/img4.jpg">
+		</div>
+-->
+	<div class="playerscore">Your Score : <span id="user-score"></div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
